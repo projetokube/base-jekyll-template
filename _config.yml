@@ -1,29 +1,29 @@
 # ----
 # Site
 
-title: Base
-url: "https://orange-ape.cloudvent.net/"
+title: Projeto Kube
+url: #"https://orange-ape.cloudvent.net/"
 baseurl:
 google_analytics_key:
 disqus_shortname:
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Knowledge base template for Jekyll.
+logo: /projetokube.jpg
+description: Base de conhecimento do Projeto Kube.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Base Template
+  name: Projeto Kube
   links:
     - https://github.com/CloudCannon/base-jekyll-template
 
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: America/Maceio
 
 permalink: /:categories/:title/
 
@@ -42,7 +42,6 @@ exclude:
 
 collections:
   sets:
-
 
 jekyll-archives:
   enabled: ['categories']
@@ -70,23 +69,26 @@ defaults:
     values:
       body_class: "show_hero_search"
 
+
 # -----------
 # CloudCannon
 
 social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - Email
+  # - Facebook
+  # - Google Plus
+  # - Instagram
+  # - LinkedIn
+  # - Pinterest
+  # - Tumblr
+  # - Twitter
+  # - YouTube
+  # - Email
   - RSS
 
 types:
   - Document
   - Video
+  - Projeto
+  - Equipe
 
 _comments:

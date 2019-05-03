@@ -5,6 +5,9 @@
 	{% assign categories = site.categories | sort %}
 	{% for category in categories %}
 		{% assign name = category[0] %}
+		{% if site.data.not_show_categories[name] %}
+			achou
+		{% endif %}	
 		{% assign posts = category[1] %}
 		{% assign size = posts | size %}
 		<section class="category">

@@ -11,7 +11,13 @@ layout: default
 			{% endfor %}
 		</ul>
 	</section>
-	<section class="tutorial-content">
+
+	{%  assign classcontent = "" %}
+	{% if sub_navigation.size > 0 %}
+		{% assign classcontent = "tutorial-content" %} 
+	{% endif %}
+
+	<section class={{classcontent}}>
 		<h1>{{ page.title }}</h1>
 
 		{% if page.type == "Video" %}

@@ -1,0 +1,8 @@
+---
+title: Equipe
+---
+{% assign itens = site.posts | where: "type", "Equipe" | sort: "title" %}
+
+<h2>{{page.title}} <span class="count">({{ itens | size }})</span></h2>
+
+{% include listings.html listings=itens %}

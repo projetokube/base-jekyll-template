@@ -1,5 +1,9 @@
-- name: Tutorials
+- name: Home
   link: /
+- name: Equipe
+  link: /equipe/
+- name: Projetos
+  link: /projeto/  
 - name: Videos
   link: /videos/
 - name: FAQ

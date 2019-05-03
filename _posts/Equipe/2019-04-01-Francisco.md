@@ -1,13 +1,9 @@
 ---
-date: 2017-01-16
-title: Add a credit card
-categories:
-  - billing
-description: "Add a credit card to your account"
+date: 2019-04-01
+title: Francisco Rodrigues
+description: "Professor de Computação"
 type: 
-  - Document
   - Equipe
-  - Projeto
   
 ---
 
